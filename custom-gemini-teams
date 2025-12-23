@@ -1,0 +1,4 @@
+#!/bin/sh
+PYTHON_BIN="/usr/bin/python3"
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec "$PYTHON_BIN" "$DIR/custom-gemini-teams.py" "$@"
